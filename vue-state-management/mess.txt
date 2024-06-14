@@ -4,4 +4,4 @@ dan bisa juga digunakan sebagai triger untuk watch atau method" yg membutuhkan r
 
 reactive asdalah:suatu keadaan yg dimana datanya bisa di asign value dan kita bisa muat value
  secara real-time atau tidak usah melakukan reload(dalam suatu page/halaman) jika ada perubahan
-jadi jika datanya berupa objek gunakanlah reactive
+jadi jika datanya berupa objek gunakanlah(disarankan) menggunakan reactive
