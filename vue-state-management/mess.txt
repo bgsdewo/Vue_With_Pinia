@@ -5,3 +5,10 @@ dan bisa juga digunakan sebagai triger untuk watch atau method" yg membutuhkan r
 reactive asdalah:suatu keadaan yg dimana datanya bisa di asign value dan kita bisa muat value
  secara real-time atau tidak usah melakukan reload(dalam suatu page/halaman) jika ada perubahan
 jadi jika datanya berupa objek gunakanlah(disarankan) menggunakan reactive
+
+jadi kesimpulan perbedaaan dari ref dengan reactive adalah
+kalo menggunakan reactive kita tidak perlu memangil namaObject.value(kita tidak perlu memangil valuenya)
+tapi kalo menggunakan ref itu kita menggunakan valuenya,contohnya ada dalam app.vue
+
+lalu perbedaaan lainnya adalah kalo menggunakan ref itu kita bisa merusak/mengubah nilainya
+tetapi kalo menggunakan reactive itu tidak bisa kecuali merubah nilai propertynya sendiri,tidak semua isi dari objectnya
