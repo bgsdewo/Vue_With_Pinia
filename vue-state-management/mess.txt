@@ -1,0 +1,2 @@
+saat membuat data secara realtime atau nilainya akan di asign lagi gunakanlah ref jangan const
+dan bisa juga digunakan sebagai triger untuk watch atau method" yg membutuhkan rendering component ulang
