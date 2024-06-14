@@ -1,2 +1,7 @@
 saat membuat data secara realtime atau nilainya akan di asign lagi gunakanlah ref jangan const
 dan bisa juga digunakan sebagai triger untuk watch atau method" yg membutuhkan rendering component ulang
+
+
+reactive asdalah:suatu keadaan yg dimana datanya bisa di asign value dan kita bisa muat value
+ secara real-time atau tidak usah melakukan reload(dalam suatu page/halaman) jika ada perubahan
+jadi jika datanya berupa objek gunakanlah reactive
