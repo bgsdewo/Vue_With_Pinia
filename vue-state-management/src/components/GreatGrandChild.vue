@@ -2,13 +2,14 @@
 // import { inject } from 'vue'
 import { useNumbers } from '../stores/numbers'
 
-const { numbers } = useNumbers()
+const { numbers,filterNumbers } = useNumbers()
 // const numbers  = inject('numbers')
 </script>
 
 <template>
     <div>
         <h1>GreatGrandChild</h1>
-        {{ numbers }}
+
+        {{ filterNumbers(13) }}
     </div>
 </template>
